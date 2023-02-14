@@ -33,10 +33,35 @@ h1{
 
 /* DL BUTTON */
 .dl-btn {
- margin: 5% 3% 5% 0%;
+    margin: 5% 3% 5% 0%;
 }
 
 .title-img{
     width: 60%;
     transform: rotate(25deg);
+}
+.feature-tittle{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.feature-text{
+    color:#8f8f8f
+}
+.icon{
+    color:#ef8172;
+   
+    margin: 1rem;
+}
+.icon:hover{
+    color:#ff4c88;
+}
+
+.feature-box{
+text-align: center;
+margin-bottom: 15px;
+padding: 5%;
+}
+#features{
+    margin: 5rem 10rem ;
 }
