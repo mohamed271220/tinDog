@@ -7,6 +7,12 @@ h1{
     font-size: 3.5rem;
     line-height: 1.5;
 }
+h2{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
 
 
 #title{
@@ -63,5 +69,35 @@ margin-bottom: 15px;
 padding: 5%;
 }
 #features{
-    margin: 5rem 10rem ;
+    padding: 5rem 10rem ;
+}
+
+/* <!-- Testimonials --> */
+
+#testimonials {
+
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+.testi-img{
+border-radius: 100%;
+width: 20%;
+margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom:5% ;
+}
+.corpa-icon{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 5rem 10rem ;
+}
+#pricing{
+    text-align: center;
 }
