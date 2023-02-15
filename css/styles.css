@@ -7,7 +7,7 @@ h1{
     font-size: 3.5rem;
     line-height: 1.5;
 }
-h2{
+h2,h3{
     font-family: 'Montserrat';
     font-weight: 900;
     font-size: 3rem;
@@ -15,12 +15,14 @@ h2{
 }
 
 
+
 #title{
     background-color: #ff4c68;
     color: white;
+
 }
-.container-fluid{
-    padding:3% 15% ;
+#title .container-fluid{
+    padding:3% 15% 0 ;
 }
 .navbar {
     padding-bottom: 4.5rem;
@@ -45,6 +47,8 @@ h2{
 .title-img{
     width: 60%;
     transform: rotate(25deg);
+    position: relative;
+    left: 30%;
 }
 .feature-tittle{
     font-family: 'Montserrat';
@@ -56,7 +60,7 @@ h2{
 }
 .icon{
     color:#ef8172;
-   
+    
     margin: 1rem;
 }
 .icon:hover{
@@ -64,18 +68,20 @@ h2{
 }
 
 .feature-box{
-text-align: center;
-margin-bottom: 15px;
-padding: 5%;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 5%;
 }
 #features{
     padding: 5rem 10rem ;
+    background-color: white;
+    position: relative;
 }
 
 /* <!-- Testimonials --> */
 
 #testimonials {
-
+    
     text-align: center;
     background-color: #ef8172;
     color: white;
@@ -100,4 +106,32 @@ margin: 20px;
 }
 #pricing{
     text-align: center;
+}
+#cta h3 {
+    padding: 60px 60px 3px;
+}
+#cta ,#footer {
+    display: flex;
+    padding: 7% 14% ;
+    color: white;
+    line-height: 1.5;
+    background-color: #ff4c68;
+    text-align: center;
+
+}
+#footer {
+    color: #000;
+    background-color: #fff;
+}
+@media screen and (max-width:1028px) {
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        left:0;
+        right: 0;
+
+    }
+    #title .container-fluid{
+        text-align: center;
+    }
 }
