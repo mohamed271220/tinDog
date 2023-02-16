@@ -1,29 +1,27 @@
 body{
     font-family: 'Montserrat';
+    text-align: center;
 }
-h1{
+h1,h2,h3{
     font-family: 'Montserrat';
     font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5;
 }
 h2,h3{
-    font-family: 'Montserrat';
-    font-weight: 900;
     font-size: 3rem;
     line-height: 1.5;
 }
-
-
-
-#title{
-    background-color: #ff4c68;
+.colored {
     color: white;
-
+    background-color: #ff4c68;
 }
-#title .container-fluid{
-    padding:3% 15% 0 ;
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
 }
+.container-fluid{
+    padding:7% 15% ;
+}
+/* tittle */
 .navbar {
     padding-bottom: 4.5rem;
 }
@@ -38,17 +36,21 @@ h2,h3{
     font-family: 'Montserrat';
     font-weight: 400;
 }
-
 /* DL BUTTON */
 .dl-btn {
     margin: 5% 3% 5% 0%;
 }
-
 .title-img{
     width: 60%;
     transform: rotate(25deg);
     position: relative;
     left: 30%;
+}
+#title{
+    text-align: left;
+}
+#title .container-fluid{
+    padding: 3% 15% 7%;
 }
 .feature-tittle{
     font-family: 'Montserrat';
@@ -66,35 +68,25 @@ h2,h3{
 .icon:hover{
     color:#ff4c88;
 }
-
 .feature-box{
-    text-align: center;
     margin-bottom: 15px;
     padding: 5%;
 }
 #features{
-    padding: 5rem 10rem ;
     background-color: white;
     position: relative;
 }
-
 /* <!-- Testimonials --> */
-
 #testimonials {
-    
-    text-align: center;
     background-color: #ef8172;
-    color: white;
 }
 .testi-img{
 border-radius: 100%;
 width: 20%;
 margin: 20px;
 }
-
 #press{
     background-color: #ef8172;
-    text-align: center;
     padding-bottom:5% ;
 }
 .corpa-icon{
@@ -104,20 +96,8 @@ margin: 20px;
 .carousel-item{
     padding: 5rem 10rem ;
 }
-#pricing{
-    text-align: center;
-}
 #cta h3 {
     padding: 60px 60px 3px;
-}
-#cta ,#footer {
-    display: flex;
-    padding: 7% 14% ;
-    color: white;
-    line-height: 1.5;
-    background-color: #ff4c68;
-    text-align: center;
-
 }
 #footer {
     color: #000;
@@ -129,7 +109,6 @@ margin: 20px;
         transform: rotate(0);
         left:0;
         right: 0;
-
     }
     #title .container-fluid{
         text-align: center;
